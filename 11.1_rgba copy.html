@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <p>Un valor de color RGB representa fuentes de luz ROJA, VERDE y AZUL. <br>
+    En HTML, un color se puede especificar como un valor RGB, utilizando esta fórmula:</p>
+    <p>rgb ( rojo, verde , azul )</p>
+    <p style="background-color:rgb(255,0,0);">Cada parámetro (rojo, verde y azul) define la intensidad del color con un valor entre 0 y 255. <br>Por ejemplo, rgb(255, 0, 0) se muestra como rojo, porque el rojo está configurado en su valor más alto (255) y los otros dos (verde y azul) están configurados en 0.</p>
+    <p style="background-color: rgb(0, 0, 0);color: white;">Para mostrar el color negro, establezca todos los parámetros de color en 0, de la siguiente manera: rgb(0, 0, 0).</p>
+    <h2>Sombras de gris</h2>
+    <p>Los tonos de gris a menudo se definen utilizando valores iguales para los tres parámetros:</p>
+    <div style="display: flex;gap: 25px;">
+    <p style="background-color: rgb(60, 60, 60);">rgb(60, 60, 60)</p>
+    <p style="background-color: rgb(100, 100, 100);">rgb(100, 100, 100)</p>
+    <p style="background-color: rgb(140, 140, 140);">rgb(140, 140, 140)</p>
+    <p style="background-color: rgb(180, 180, 180);">rgb(180, 180, 180)</p> 
+    </div>
+    <h2>Valores de color RGBA</h2>
+    <p>Los valores de color RGBA son una extensión de los valores de color RGB con un canal Alfa, que especifica la opacidad de un color.</p>
+    <p>rgba( rojo, verde , azul, alfa ) <br>El parámetro alfa es un número entre 0,0 (totalmente transparente) y 1,0 (nada transparente):</p>
+    <div style="display: flex;gap: 25px;">
+      <p style="background-color: rgb(255, 0, 0, 0.3);">rgb(255, 0, 0, 0.3)</p>
+      <p style="background-color: rgb(255, 0, 0, 0.5);">rgb(255, 0, 0, 0.5)</p>
+      <p style="background-color: rgb(255, 0, 0, 0.8);">rgb(255, 0, 0, 0.8)</p>
+      </div>
+</body>
+</html>
