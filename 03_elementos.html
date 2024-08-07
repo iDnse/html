@@ -1,39 +1,21 @@
-<!-- Un elemento HTML se define mediante una etiqueta 
-de inicio, algún contenido y una etiqueta final. -->
-<h1>contenido titulo</h1>
-
-<p>contenido parrafo</p>
-
-<!-- Algunos elementos HTML no tienen contenido. 
-Estos elementos se denominan elementos vacíos. -->
-<br>contenido
-
-<!-- Elementos HTML anidados se pueden anidar (esto significa que los elementos pueden 
-contener otros elementos). -->
-
-<!DOCTYPE html>
-<html>                      <!-- El <html>elemento es el elemento raíz y define todo el documento HTML. -->
-<body>                      <!-- dentro del <html>elemento hay un <body>, dentro hay otros dos elementos:<h1>y <p>-->
-  <h1>My First Heading</h1> <!-- dentro del elemento <h1> solo esta su contenido -->
-  <p>My first paragraph.</p><!-- dentro del elemento <p> solo esta su contenido -->
-</body>
-</html>
-
-<!-- Consejo: Nunca te saltes la etiqueta final -->
-<html>
-<body>
-<p>This is a paragraph
-<p>This is a paragraph
-</body>
-</html>
-<!-- Sin embargo, ¡nunca confíes en esto! Si olvidas la etiqueta final, pueden producirse resultados inesperados y errores -->
-
-<!-- Elementos HTML vacíos -->
-<!-- La <br>etiqueta define un salto de línea y es un elemento vacío sin etiqueta de cierre -->
-<p>Este es un <br> paragrado con una linea de separacion.</p>
-
 <!-- HTML no distingue entre mayúsculas y minúsculas -->
+<!DOCTYPE html>
+<!-- Elementos HTML anidados se pueden anidar (esto significa que los elementos pueden contener otros elementos). -->
+ <!-- El <html>elemento es el elemento raíz y define todo el documento HTML. -->
+<html>
+<head>
+  <title></title>
+</head>
+<!-- dentro del <html>elemento hay un <body>, dentro hay otros dos elementos:<h1>y <p>-->
+<body>
+  <!-- Un elemento HTML se define mediante una etiqueta de inicio, algún contenido y una etiqueta final. -->
+  <h1>contenido del h1</h1>
+  <!-- Algunos elementos HTML no tienen contenido. Estos elementos se denominan elementos vacíos. -->
+  <!-- La etiqueta <br> define un salto de línea y es un elemento vacío sin etiqueta de cierre -->
+  <p>contenido <br> de un parrafo</p>
+</body>
+</html>
+<!-- Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: <P> significa lo mismo que <p>.
 
-<!-- Las etiquetas HTML no distinguen entre mayúsculas y minúsculas: <P>significa lo mismo que <p>.
-El estándar HTML no requiere etiquetas en minúsculas, pero W3C recomienda minúsculas en 
-HTML y exige minúsculas para tipos de documentos más estrictos como XHTML. -->
+El estándar HTML no requiere etiquetas en minúsculas, pero W3C recomienda minúsculas en HTML y exige minúsculas 
+para tipos de documentos más estrictos como XHTML. -->

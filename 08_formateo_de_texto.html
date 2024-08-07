@@ -1,15 +1,4 @@
 <!-- HTML contiene varios elementos para definir texto con un significado especial. -->
-<!DOCTYPE html>
-<html>
-<body>
-
-<p><b>This text is bold</b></p>
-<p><i>This text is italic</i></p>
-<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
-
-</body>
-</html>
-
 <!-- Elementos de formato HTML, fueron diseñados para mostrar tipos especiales de texto:
 <b>- Texto en negrita
 <strong>- Texto importante
@@ -22,26 +11,45 @@
 <sub>- Texto en subíndice
 <sup>- Texto en superíndice -->
 
-<!-- <b> y <strong> -->
-<!-- El elemento HTML <b> define texto en negrita, sin ninguna importancia extra. -->
-<b>This text is bold</b>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <b> define texto en negrita, sin ninguna importancia extra. -->
+  <p><b>Este texto es en negrita</b></p>
+  
+  <!-- <strong> define texto con gran importancia. El contenido que se encuentra dentro se muestra en negrita -->
+  <p><strong>Este texto es importante</strong></p>
 
-<!-- El elemento HTML <strong> define texto con gran importancia. El contenido 
-que se encuentra dentro de él normalmente se muestra en negrita -->
-<strong>This text is important!</strong>
+  <!-- <i> define una parte del texto en una voz o estilo alternativo.El contenido que se encuentra dentro es en cursiva. -->
+  <!-- La <i> se utiliza a menudo para indicar un término técnico, una frase de otro idioma, un pensamiento, el nombre de un barco, etc. -->
+  <p><i>Este texto es en cursiva</i></p>
 
-<!-- <i> y <em></em> -->
+  <!-- <em> define el texto resaltado. El contenido se muestra en cursiva. Un lector de pantalla pronunciará las palabras <em> con énfasis,
+  utilizando estrés verbal. -->
+  <p><em>Este texto es en cursiva</em></p>
 
-<!-- El elemento HTML <i> define una parte del texto en una voz o estilo alternativo. 
-El contenido que se encuentra dentro de él normalmente se muestra en cursiva. -->
+  <!-- <small> define un texto más pequeño: -->
+  <p><small>Este texto es mas pequeño</small></p>
 
-<!-- La <i>etiqueta se utiliza a menudo para indicar un término técnico, 
-una frase de otro idioma, un pensamiento, el nombre de un barco, etc. -->
-<i>This text is italic</i>
+  <!-- <mark> define el texto que debe marcarse o resaltarse: -->
+  <p>No olvides comprar <mark>leche</mark> hoy.</p>
 
-<!-- El elemento HTML <em>define el texto resaltado. El contenido que se encuentra 
-entro de él normalmente se muestra en cursiva. -->
+  <!-- <del> define el texto que se ha eliminado de un documento. Los navegadores suelen tachar el texto eliminado con una línea -->
+  <p>Mi color favorito es <del>azul</del> rojo.</p>
 
-<!-- Un lector de pantalla pronunciará las palabras <em> con énfasis, utilizando estrés verbal. -->
-<em>This text is emphasized</em>
+  <!-- <ins> define un texto que se ha insertado en un documento. Los navegadores suelen subrayar el texto insertado -->
+  <p>Mi color favorito es <del>azul</del> <ins>rojo</ins>.</p>
 
+  <!-- <sub> define el texto en subíndice. El texto en subíndice aparece medio carácter por debajo de la línea normal y, a veces, se representa en una fuente más pequeña. -->
+  <p>Esto es un <sub>subindice</sub></p>
+
+  <!-- <sup> define el texto en superíndice. El texto en superíndice aparece medio carácter por encima de la línea normal y, a veces, se representa en una fuente más pequeña. -->
+  <p>Esto es un <sup>superindice</sup></p>
+
+</body>
+</html>
