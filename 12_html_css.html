@@ -3,9 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      background-color: rgb(50, 50, 50,0.4);
+    }
+    .interno {
+      color:rgb(38, 14, 146)
+    }
+    .padding{
+      padding: 30px;
+    }
+  </style>
   <title>Document</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <h1>CSS significa hojas de estilo en cascada</h1>
+  <h1><abbr title="hojas de estilo en cascada">CSS</abbr></h1>
+  <p>CSS ahorra mucho trabajo. Permite controlar el diseño de varias páginas web a la vez.</p>
+  <p>¡Con CSS, puedes controlar el color, la fuente, el tamaño del texto, el espaciado entre elementos, cómo se posicionan y disponen los elementos, qué imágenes o colores de fondo se utilizarán, diferentes pantallas para diferentes dispositivos y tamaños de pantalla, y mucho más!</p>
+  <p>La palabra " en cascada" significa que un estilo aplicado a un elemento principal también se aplicará a todos los elementos secundarios dentro del elemento principal. </p>
+  <h2>Usando CSS</h2>
+  <P>Se pueden añadir CSS a documentos HTML de tres maneras:</P>
+  <ol>
+    <li>En línea : mediante el uso del styleatributo dentro de elementos HTML</li>
+    <li>Interno : mediante el uso de un style elemento en la head sección</li>
+    <li>Externo : mediante el uso de un link elemento para vincular a un archivo CSS externo</li>
+  </ol>
+  <p>La forma más común de agregar CSS es mantener los estilos en archivos CSS externos.</p>
+  <h2>CSS en línea</h2>
+  <p>Se utiliza un CSS en línea para aplicar un estilo único a un solo elemento HTML. <br> Un CSS en línea utiliza el styleatributo de un elemento HTML.</p>
+  <p style="color:blue;">parrafo en azul</p>
+  <p style="color:red;">parrafo en rojo.</p>
+  <h2>CSS interno</h2>
+  <p class="interno">Se utiliza un CSS interno para definir un estilo para una sola página HTML. <br>Un CSS interno se define en la head sección de una página HTML, dentro de un style elemento.</p>
+  <p class="interno">parrafo interno</p>
+  <h2 class="externo">CSS externo</h2>
+  <p class="externo">Se utiliza una hoja de estilo externa para definir el estilo de muchas páginas HTML.</p>
+  <h2 class="titulo">Colores, fuentes y tamaños CSS</h2>
+  <p class="parrafo">Aquí, demostraremos algunas propiedades CSS de uso común. Aprenderá más sobre ellas más adelante.<br>El color propiedad CSS define el color del texto que se utilizará.<br>La propiedad CSS font-family define la fuente que se utilizará.<br>La font-size propiedad CSS define el tamaño del texto que se utilizará.</p>
+  <h2 class="titulo2">Borde CSS</h2>
+  <p class="parrafo2">La borderpropiedad CSS define un borde alrededor de un elemento HTML.</p>
+  <h2 class="padding">Padding CSS</h2>
+  <p class="padding">La Padding propiedad CSS define un relleno (espacio) entre el texto y el borde.</p>
+  <h2 style="margin: 50px;">Margen CSS</h2>
+  <p style="margin: 50px;">La margin propiedad CSS define un margen (espacio) fuera del borde.</p>
 </body>
 </html>

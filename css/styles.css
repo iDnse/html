@@ -1,0 +1,23 @@
+.externo {
+  color: darkgreen;
+}
+
+.titulo {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+.parrafo {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+
+.titulo2 {
+  border: 2px solid black;
+}
+
+.parrafo2{
+  border: 2px solid black;
+}
+

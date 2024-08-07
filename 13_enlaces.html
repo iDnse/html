@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Enlaces HTML</h1>
+  <p>Los enlaces se encuentran en casi todas las páginas web y permiten a los usuarios hacer clic para pasar de una página a otra.</p>
+  <p>Los enlaces HTML son hipervínculos. <br>Puede hacer clic en un enlace y saltar a otro documento. </p>
+  <!-- Un enlace no tiene por qué ser texto. Puede ser una imagen o cualquier otro elemento HTML. -->
+  <!-- La etiqueta HTML <a>define un hipervínculo. -->
+  <a href="url">link text</a>
+  <p>El atributo más importante del <a> elemento es el href atributo , que indica el destino del enlace.</p>
+  <p>El texto del enlace es la parte que será visible para el lector.</p>
+  <p>Al hacer clic en el texto del enlace, el lector será enviado a la dirección URL especificada.</p>
+  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+  <h2>Enlaces HTML: el atributo target</h2>
+  <p>De forma predeterminada, la página vinculada se mostrará en la ventana actual del navegador. Para cambiar esto, debe especificar otro destino para el vínculo.</p>
+  <p>El target atributo especifica dónde abrir el documento vinculado.</p>
+  <ol>
+    <li>_self- Predeterminado. Abre el documento en la misma ventana o pestaña en la que se hizo clic.</li>
+    <li>_blank- Abre el documento en una nueva ventana o pestaña</li>
+    <li>_parent- Abre el documento en el marco principal.</li>
+    <li>_top- Abre el documento en el cuerpo completo de la ventana.</li>
+  </ol>
+  <p>Utilice target="_blank" para abrir el documento vinculado en una nueva ventana o pestaña del navegador:</p>
+  <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+  <h2>URL absolutas vs. URL relativas</h2>
+  <p>Ambos ejemplos anteriores utilizan una URL absoluta (una dirección web completa) en el hrefatributo.</p>
+  <p>Un enlace local (un enlace a una página dentro del mismo sitio web) se especifica con una URL relativa (sin la parte "https://www"):</p>
+  <h2>Ruta absoluta URLs</h2>
+  <p><a href="https://www.w3.org/">W3C</a></p>
+  <p><a href="https://www.google.com/">Google</a></p>
+
+  <h2>Ruta relativa URLs</h2>
+  <p><a href="html_images.asp">HTML Images</a></p>
+  <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+  <h2>Enlaces HTML: utilizar una imagen como enlace</h2>
+  <p>Para usar una imagen como enlace, simplemente coloque la img etiqueta dentro de la a etiqueta:</p>
+  <a href="#">
+    <img src="/img/smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+  </a>
+  <h2>Enlace a una dirección de correo electrónico</h2>
+  <p>Úselo mailto:dentro del href atributo para crear un <br> 
+  enlace que abra el programa de correo electrónico del usuario <br>
+  (para permitirle enviar un nuevo correo electrónico):</p>
+  <a href="mailto:someone@example.com">Send email</a>
+  <h2>Botón como enlace</h2>
+  <p>Para utilizar un botón HTML como enlace, debes agregar algún código JavaScript.</p>
+  <p>JavaScript le permite especificar qué sucede en determinados eventos, como cuando se hace clic en un botón:</p>
+  <button onclick="document.location='#'">HTML Tutorial</button>
+  <h2>Títulos de enlaces</h2>
+  <p>El titleatributo especifica información adicional sobre un elemento. La información se muestra generalmente como un texto de información sobre herramientas cuando el mouse se mueve sobre el elemento</p>
+  <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+</body>
+</html>
