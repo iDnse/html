@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    .button:link, a:visited {
+      background-color: #f44336;
+      color: rgb(48, 6, 218);
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover, a:active {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="inicio">Enlaces HTML</h1>
+  <p>Un enlace HTML se muestra en un color diferente dependiendo de si ha sido visitado, no ha sido visitado o está activo.</p>
+  <h2>Colores de enlaces HTML</h2>
+  <p>De forma predeterminada, aparecerá un enlace como este (en todos los navegadores):</p>
+  <ul>
+    <li>Un enlace no visitado está subrayado y en azul.</li>
+    <li>Un enlace visitado está subrayado y en color morado.</li>
+    <li>Un enlace activo está subrayado y en rojo.</li>
+  </ul>
+  <p>Puede cambiar los colores del estado del enlace mediante CSS:</p>
+  <a href="#">Haz click aqui</a>
+  <h2 >Botones de enlace</h2>
+  <p>Un enlace también se puede diseñar como un botón mediante el uso de CSS:</p>
+  <a href="#" class="button">Este es un link a boton</a>
+  <h2>Marcadores de Enlaces</h2>
+  <p>Los enlaces HTML se pueden utilizar para crear marcadores, de modo que los lectores puedan saltar a partes específicas de una página web.</p>
+  <p>Para crear un marcador, primero cree el marcador y luego agréguele un enlace.
+  <br> Al hacer clic en el enlace, la página se desplazará hacia abajo o hacia arriba hasta la ubicación con el marcador.</p>
+  <ol>
+    <li>Utilice el id atributo (id=" valor ") para definir marcadores en una página</li>
+    <li>Utilice el href atributo (href="# value ") para vincular al marcador</li>
+  </ol>
+  <a href="#inicio">Saltar al inicio de la pagina</a>
+</body>
+</html>
